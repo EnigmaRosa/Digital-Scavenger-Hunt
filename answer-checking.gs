@@ -46,7 +46,7 @@ function onFormSubmit(e) {
   
   if (answerStatus == true)
    {
-     if (nextAvailable == true)
+     if (nextAvailable == "true")
      {
        subject = correct_nextAvailable_subject;
        message = correct_nextAvailable_message;
